@@ -7,6 +7,7 @@ require (
 	github.com/andersfylling/snowflake/v5 v5.0.1 // indirect
 	github.com/joho/godotenv v1.4.0 // indirect
 	github.com/klauspost/compress v1.15.1 // indirect
+	github.com/techmmunity/tutils v0.0.0-20220910173859-3ffb441f820e // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd // indirect
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect

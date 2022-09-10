@@ -12,6 +12,7 @@ import (
 	"monetizzer/src/utils"
 
 	"github.com/andersfylling/disgord"
+	"github.com/techmmunity/tutils"
 )
 
 func listen(client *disgord.Client) {
@@ -20,7 +21,7 @@ func listen(client *disgord.Client) {
 			return
 		}
 
-		command, err := utils.Find(utils.GetSlashCommands(), func(c types.SlashCommand) bool {
+		command, err := tutils.Find(utils.GetSlashCommands(), func(c types.SlashCommand) bool {
 			return c.Name == h.Data.Name
 		})
 
